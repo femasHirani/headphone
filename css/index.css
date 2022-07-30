@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+nav {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .nav-items {
+    display: flex;
+}
+nav .nav-items h5.nav-item {
+    padding: 0 30px;
+    font-size: 19px;
+}
+h5.nav-item.active-item, nav .nav-items h5.nav-item:hover{
+    color: #fe5e35;
+}
+.intro-section {
+    width: 1140px;
+    margin: 0 auto;
+}
+.intro-section .left-section {
+    width: 60%;
+    float: left;
+    padding: 50px 0 0 0;
+}
+.intro-section .left-section h3 {
+    font-size: 30px;
+}
+.intro-section .left-section h3 img{
+    width: 50px;
+}
+.intro-section .left-section h1 {
+    width: 100%;
+    float: left;
+    font-size: 64px;
+    font-family: 'Fredoka One', sans-serif;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.sub-headlines {
+    width: 100%;
+    float: left;
+    margin: 0 0 0 20px;
+    padding: 20px 0 30px 0;
+}
+h5.sub-headline {
+    font-size: 20px;
+    margin: 0 0 5px 0;
+}
+h5.sub-headline img {
+    background: #ff5e35;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    border-radius: 50%;
+    margin: 5px 10px 0 0;
+    float: left;
+}
+.right-section {
+    float: left;
+    width: 40%;
+}
+.right-section .headphone-div img.discount {
+    position: absolute;
+    width: 130px;
+    top: 63%;
+    left: -22px;
+}
+.right-section .headphone-div {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.right-section .headphone-div img {
+    width: 100%;
+    float: left;
+}
+.discount-content {
+    position: absolute;
+    top: 71%;
+    text-align: center;
+    width: 87px;
+    color: #fff;
+}
+.discount-content h4 {
+    font-size: 12px;
+}
+p.text {
+    width: 100%;
+    font-size: 14px;
+    color: #ccc;
+}
+.action-btns {
+    margin: 30px 0 0 0;
+}
+.action-btns button.action-btn {
+    background: #ff5e35;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    margin: 0 20px 0 0;
+}
+.right-section button.action-btn {
+    margin: 30px auto;
+    display: inherit;
+    background: #ff5e35;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+}
+.dots {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.dots .dot.yellow-dot,
+.dots .dot.black-dot,
+.dots .dot.tomato-dot {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.dots .dot.yellow-dot {
+    background-color: #fbd104;
+}
+.dots .dot.black-dot {
+    background-color: #000;
+}
+.dots .dot.tomato-dot {
+    background-color: #fe5e35;
+}
